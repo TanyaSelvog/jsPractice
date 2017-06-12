@@ -11,3 +11,4 @@
 6-8-17 Truncate a string
 6-9-17 Chunky Monkey - function that splits an array (first argument) into groups the length of size (second argument) and returns them as a two-dimensional array.
 6-11-17 Slasher
+6-12-17 Destroyer
