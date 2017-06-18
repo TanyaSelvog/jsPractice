@@ -1,0 +1,10 @@
+today = new Date();
+    moveDay = new Date("August 1, 2018");
+    msPerDay = 24 * 60 * 60 * 1000 ;
+    timeLeft = (moveDay.getTime() - today.getTime());
+    e_daysLeft = timeLeft / msPerDay;
+    daysLeft = Math.floor(e_daysLeft);
+    e_hrsLeft = (e_daysLeft - daysLeft)*24;
+    hrsLeft = Math.floor(e_hrsLeft);
+    minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
+    document.write("<h1>There are <b>" + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left </b> until August 1st, 2018!</h1>");
